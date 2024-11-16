@@ -110,21 +110,21 @@ export const siteSettings = {
       name: 'text-orders',
       icon: <OrdersIcon className="text-lg md:text-xl" />,
     },
-    {
-      slug: ROUTES.DOWNLOADS,
-      name: 'text-downloads',
-      icon: <DownloadsIcon className="text-lg md:text-xl" />,
-    },
+    // {
+    //   slug: ROUTES.DOWNLOADS,
+    //   name: 'text-downloads',
+    //   icon: <DownloadsIcon className="text-lg md:text-xl" />,
+    // },
     {
       slug: ROUTES.WISHLISTS,
       name: 'text-wishlist',
       icon: <WishlistIcon className="text-lg md:text-xl" />,
     },
-    {
-      slug: ROUTES.ACCOUNT_CARDS,
-      name: 'text-cards',
-      icon: <CardsIcon className="text-lg md:text-xl" />,
-    },
+    // {
+    //   slug: ROUTES.ACCOUNT_CARDS,
+    //   name: 'text-cards',
+    //   icon: <CardsIcon className="text-lg md:text-xl" />,
+    // },
     {
       slug: ROUTES.ACCOUNT_ADDRESS,
       name: 'text-account-address',

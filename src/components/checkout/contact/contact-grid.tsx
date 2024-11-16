@@ -52,20 +52,20 @@ const ContactGrid = ({ contact, label, count, className, userId, profileId }: Co
           {label}
         </div>
 
-        <button
+        {/* <button
           className="flex items-center text-sm font-semibold text-heading transition-colors duration-200 focus:outline-none focus:opacity-70 hover:opacity-70 mt-1"
           onClick={onAddOrChange}
         >
           <PlusIcon className="w-4 h-4 stroke-2 ltr:mr-0.5 rtl:ml-0.5 relative top-[1px]" />
           {contactNumber ? t("text-update") : t("text-add")}
-        </button>
+        </button> */}
       </div>
 
-      <div className={classNames('w-full')}>
+      <div className={classNames('w-full')}  onClick={onAddOrChange}>
         <PhoneInput
           country="us"
           value={contactNumber}
-          disabled={true}
+          
           inputClass="!p-0 ltr:!pr-4 rtl:!pl-4 ltr:!pl-14 rtl:!pr-14 !flex !items-center !w-full !appearance-none !transition !duration-300 !ease-in-out !text-heading !text-sm focus:!outline-none focus:!ring-0 !border !border-gray-400 !rounded focus:!border-heading !h-12"
           dropdownClass="focus:!ring-0 !border !border-gray-400 !shadow-350"
         />

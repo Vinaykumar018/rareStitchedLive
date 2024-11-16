@@ -29,7 +29,7 @@ import Marquee from "react-fast-marquee";
 export default function Home() {
   return (
     <>
-    <Marquee className="bg-black p-2 m-1 shadow-lg">
+    {/* <Marquee className="bg-black p-2 m-1 shadow-lg">
       <div className="flex items-center space-x-4">
         <p className="text-white text-lg font-semibold flex-1">
           <span className="font-extrabold text-2xl text-yellow-400">
@@ -41,6 +41,21 @@ export default function Home() {
             <strong className="text-red-500">Deific-20</strong> TO GET UP TO{" "}
             <em className="font-bold text-green-500">50% DISCOUNT</em>
           </span>
+        </p>
+      </div>
+    </Marquee> */}
+        <Marquee className="bg-black p-2 m-1 shadow-lg">
+      <div className="flex items-center space-x-4">
+        <p className="text-white text-lg font-semibold flex-1">
+          <span className="font-extrabold text-2xl text-yellow-400">
+            THE WINTER DISCOUNT SEASON IS ON
+          </span>
+          <br />
+          {/* <span className="text-lg">
+            BUY RIGHT NOW AND USE COUPON{" "}
+            <strong className="text-red-500">Deific-20</strong> TO GET UP TO{" "}
+            <em className="font-bold text-green-500">50% DISCOUNT</em>
+          </span> */}
         </p>
       </div>
     </Marquee>
